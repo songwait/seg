@@ -1,0 +1,6 @@
+data/pingpong/video
+data/tennis/video
+mlsd
+.conda
+__pychache__
+.vscode
