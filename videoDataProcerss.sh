@@ -7,4 +7,4 @@ echo 'videoToFrame over'
 sh ./fileList.sh
 echo 'finish'
 
-exit 
+exit 0
