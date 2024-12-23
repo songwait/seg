@@ -1,10 +1,10 @@
 #!/bin/sh 
 
-./fileList.sh
+sh ./fileList.sh
 echo 'videoToFrame start'
-python -u "c:\Users\Administrator\Desktop\seg\VideoToFrame.py"
+python -u "VideoToFrame.py"
 echo 'videoToFrame over'
-./fileList.sh
+sh ./fileList.sh
 echo 'finish'
 
 exit 0bash
