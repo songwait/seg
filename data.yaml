@@ -10,3 +10,24 @@ test: # test images (optional)
 names:
   0: edge
   1: point
+augment:
+          
+  flipud: 0.5      # 50% 概率进行垂直翻转
+          
+  fliplr: 0.5      # 50% 概率进行水平翻转
+          
+  # mosaic: 1.0      # 启用 Mosaic 数据增强
+          
+  # mixup: 0.5       # 启用 Mixup 数据增强
+          
+  hsv_h: 0.015     # 色调增强，范围为 ±0.015
+          
+  hsv_s: 0.7       # 饱和度增强，范围为 ±0.7
+          
+  hsv_v: 0.4       # 亮度增强，范围为 ±0.4
+          
+  scale: 0.0       # 随机缩放，范围为 ±50%
+          
+  shear: 0.0       # 随机剪切，设置为 0 禁用
+          
+  perspective: 0.0 # 随机透视变换，设置为 0 禁用
