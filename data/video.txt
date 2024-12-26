@@ -1,3 +1,3 @@
-./data/tennis/video/normal.mp4
-./data/tennis/video/normal.1.mp4
-./data/tennis/video/special.mp4 
+data/tennis/video/normal.1.mp4
+data/tennis/video/normal.mp4
+data/tennis/video/special.mp4 
