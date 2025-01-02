@@ -39,4 +39,4 @@ def lsd(filePath):
     
         
 if __name__ == "__main__":
-    lsd("./data/tennis/frame/【网球黄金视角】观看比赛最佳视角，感受世界顶尖球员的技巧！.15.png")
+    lsd("/root/songjiyang/task/seg/data/tennis/frame/normal.0.png")
