@@ -2,7 +2,7 @@
 
 sh ./fileList.sh
 echo 'videoToFrame start'
-python -u "VideoToFrame.py"
+/root/.conda/envs/songjiyang/bin/python /root/songjiyang/task/seg/VideoToFrame.py
 echo 'videoToFrame over'
 sh ./fileList.sh
 echo 'finish'
