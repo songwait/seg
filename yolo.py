@@ -4,12 +4,12 @@ model = YOLO("yolo11n-seg.pt")  # load a pretrained model (recommended for train
 # model = YOLO("yolo11n-seg.yaml").load("yolo11n.pt")  # build from YAML and transfer weights
 
 # Train the model
-results = model.train(data="data.yaml", epochs=300)
+results = model.train(data="data.yaml", epochs=200)
 
 # Evaluate the model's performance on the validation set
 results = model.val()
 # Perform object detection on an image using the model
-results = model("data/tennis/labeledFrame/frame/normal.6.png")
+results = model("data/tennis/labeledFrame/frame/tennis_all_6_1.png")
 # Process results list
 for result in results:
     boxes = result.boxes  # Boxes object for bounding box outputs

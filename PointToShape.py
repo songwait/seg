@@ -32,4 +32,4 @@ def readLabels(fileName):
                     points[i] = str(float(points[i])/float(xl))
             pointToShape(label[0].replace("png","txt"),points)
 if __name__ == "__main__":
-    readLabels("data/label.txt")            
+    readLabels("data/tennisAllLabel.txt")            
